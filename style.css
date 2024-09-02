@@ -4,19 +4,55 @@
 
 html {
     color: #222;
-    background-color: #eee;
+    background-color: #f6f3cb;
+    padding: 3%;
 }
+
+
+.grid h2 {
+  margin-top: 4px;
+  color: #555;
+  font-weight: 400;
+}
+
+.grid img {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.jerome{
+  max-width: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+  .grid {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .propos {
+      column-count: 2;
+      gap: 2.5rem;
+  }
+}
+
+
 
 /* =======================
    EXEMPLE de Media Query
    ======================= */
-
-@media only screen and (min-width: 800px) {
-
-    html {
-      background-color: #eae;
-    }
-
-}
 
 
