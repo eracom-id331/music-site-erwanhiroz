@@ -17,10 +17,10 @@
             <nav class="menu"> 
                 
                 <div> <a href>home</a></div>
-                <div> <a href>à propos</a></div>
-                <div> <a href>discographie</a></div>
-                <div><a href>vidéo</a></div>
-                <div><a href>contact</a></div>
+                <div> <a href="#biographie">à propos</a></div>
+                <div> <a href="#discographie">discographie</a></div>
+                <div><a href="#video">vidéo</a></div>
+                <div><a href="#contact">contact</a></div>
             </nav>
         </header>
     </head>
@@ -31,7 +31,7 @@
             <img src="img/jerome.png" alt>
         </div>
 
-        <h2>Biographie</h2>
+        <h2 id="biographie">Biographie</h2>
 
         <section class="propos">
 
@@ -94,7 +94,7 @@
                 éditions Héliopoles.</p>
         </section>
 
-        <h2>Discographie</h2>
+        <h2 id="discographie">Discographie</h2>
         <section class="grid">
             <div>
                 <img src="img/montecristo.webp" alt>
@@ -130,14 +130,28 @@
 
         <section class="vidéo">
 
-            <h2>Vidéo</h2>
-            <iframe width="100%" height="1080"
-                src="https://www.youtube.com/embed/u0YnbsyvGS0?si=Yy6UviIGUaN7hJf9"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
+            <h2 id="video">Bande annonce - Le Comte de Monte Cristo</h2>
+            <video class="bandeannonce" controls>
+                <source src="video/bandeannonceMC.mp4" type="video/mp4">
+            </video>
 
         </section>
+
+        <footer>
+            <div class="footer-content">
+                <h3>Continuer à suivre Jerome Rebotier</h3>
+                <p>Nous créons des expériences uniques. Suivez-nous sur nos réseaux sociaux pour rester informé.</p>
+                <ul class="socials">
+                    <li><a href="#"><img src="img/allocine.png" alt="allocine"></a></li>
+                    <li><a href="#"><img src="img/IMDB.svg.png" alt="IMDB"></a></li>
+                    <li><a href="#"><img src="img/Spotify.svg" alt="Spotify"></a></li>
+                    <li><a href="#"><img src="img/wiki.svg.png" alt="Wikipedia"></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mon Beau Site | Tous droits réservés</p>
+            </div>
+        </footer>    
+
     </body>
 </html>
